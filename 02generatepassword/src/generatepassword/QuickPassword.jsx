@@ -49,7 +49,7 @@ export default function QuickPassword () {
                         Copy
                     </button>
                 </div>
-                <div className="flex flex-col sm:flex-row text-sm gap-y-4 sm:gap-x-2">
+                <div className="flex flex-col sm:flex-row text-xl gap-y-4 sm:gap-x-2">
                     <div className="flex items-center gap-x-1">
                         <input
                             type="range"

@@ -51,7 +51,7 @@ function Footer() {
     // This function returns JSX for a single link
     const SupportLinkItem = ({ title, linkTo }) => (
         <li className="mb-1 inline-block w-68">
-            <Link to={linkTo} className="text-gray-400 hover:text-gray-200 transition-colors duration-200 text-sm capitalize m-0 p-0">
+            <Link to={linkTo} className="text-gray-400 hover:text-gray-200 transition-colors duration-200 text-xl capitalize m-0 p-0">
                 {title}
             </Link>
         </li>
